@@ -1,0 +1,91 @@
+/* 共通 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ヘッダー */
+header {
+/* background-color: blue; */
+padding: 20px 0;
+}
+header h1{
+text-align: center;
+/* background-color: pink; */
+}
+/* ナビ */
+nav ul{
+  text-align: center;
+  padding: 15px 0;
+  /* background-color: aqua; */
+}
+nav ul li{
+  list-style: none;  
+  display: inline-block; 
+  margin: 0 20px
+}
+
+/* メイン */
+.main {
+  width: 800px;
+  margin:50px auto;
+  /* background-color: cadetblue; */
+}
+.box{
+  width: 200px;
+  height:200px;
+  float:left;
+}
+.box1{
+  background-color:#e6ffe9;
+}
+.box2{
+  background-color:#CBFFD3;
+}
+.box3{
+  background-color:#AEFFBD;
+}
+.box4{
+  background-color: #93FFAB;
+}
+.box5{
+  background-color: #F3FFD8;
+}
+.box6{
+  background-color: #EDFFBE;
+}
+.box7{
+  background-color: #E9FFA5;
+}
+.box8{
+  background-color: #E4FF8D;
+}
+.box9{
+  background-color: #D9E5FF;
+}
+.box10{
+  background-color: #BAD3FF;
+}
+.box11{
+  background-color: #A4C6FF;
+}
+.box12{
+  background-color: #8EB8FF;
+}
+
+/* フッター */
+footer{
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background-color: #848282;
+}
+footer p{
+  color: #fff;
+}
